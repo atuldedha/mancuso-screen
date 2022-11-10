@@ -3,7 +3,7 @@ import DropIcon from "../../../images/smallDropdown.png";
 
 const UploadImage = () => {
   return (
-    <div className="bg-middle w-full h-[529px] flex space-x-16">
+    <div className="bg-middle w-full h-[529px] pb-[71px] flex space-x-16">
       <div className="flex flex-col ml-[107px] mt-[147px] basis-1/2">
         <span className="font-semibold font-plusJakarta text-[48px] leading-[64.5px] -tracking-[1px] text-[#2C2A3B] flex mb-[64px]">
           Upload your image and get your results
