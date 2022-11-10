@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header/Header";
+import Middle from "./components/Middle/Middle";
+import Title from "./components/Title/Title";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="relative overflow-hidden">
+      <div className="bg-[#0B0F19]">
+        <Header />
+        <div className="absolute top-51px left-[18px] bg-linear opacity-[0.35] blur-[150px] transform -rotate-[7.48] w-[619px] h-[619px]" />
+        <Title />
+      </div>
+
+      <Middle />
     </div>
   );
 }
