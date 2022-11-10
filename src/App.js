@@ -1,5 +1,7 @@
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Middle from "./components/Middle/Middle";
+import Results from "./components/Results/Results";
 import Title from "./components/Title/Title";
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       </div>
 
       <Middle />
+      <Results />
+      <Footer />
     </div>
   );
 }

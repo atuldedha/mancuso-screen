@@ -32,7 +32,7 @@ const Middle = () => {
           world what the future looks like.
         </span>
 
-        <button className="flex items-center mt-[30px] bg-[#7D2AE8] py-[17px] pl-[32px] pr-[29px] text-white text-[20px] font-plusJakarta font-semibold leading-[34px] rounded-[7px] shadow-btn">
+        <button className="flex items-center mt-[30px] bg-[#7D2AE8] py-[17px] pl-[32px] pr-[29px] text-white text-[20px] font-plusJakarta font-semibold leading-[34px] rounded-[7px] shadow-btn hover:scale-105">
           Get Started
           <img src={ArrowIcon} alt="arrow" className="ml-3" />
         </button>

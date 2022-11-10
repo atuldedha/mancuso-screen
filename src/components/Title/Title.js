@@ -20,7 +20,7 @@ const Title = () => {
         </span>
 
         <div className="flex items-center mb-[211px]">
-          <button className="flex items-center text-[20px] bg-[#7D2AE8] py-[17px] pl-[32px] pr-[29px] text-white font-plusJakarta font-semibold leading-[34px] rounded-[7px] shadow-btn">
+          <button className="flex items-center text-[20px] bg-[#7D2AE8] py-[17px] pl-[32px] pr-[29px] text-white font-plusJakarta font-semibold leading-[34px] rounded-[7px] shadow-btn hover:scale-105">
             Create your Photos
             <img src={ArrowIcon} alt="arrow" className="ml-3" />
           </button>
