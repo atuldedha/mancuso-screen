@@ -1,8 +1,8 @@
 import React from "react";
 import CardsImage from "../../images/cardsImage.png";
 import ArrowIcon from "../../images/smallArrow.png";
-import Ellipse1 from "../../images/circle1.png";
-import Ellipse2 from "../../images/circle2.png";
+import Ellipse1 from "../../images/newCircle1.png";
+import Ellipse2 from "../../images/newCircle2.png";
 
 const Middle = () => {
   return (
@@ -45,12 +45,12 @@ const Middle = () => {
       <img
         src={Ellipse1}
         alt="ellipse"
-        className="absolute w-[50px] xl:w-[80px] top-[85px] right-0"
+        className="absolute w-[100px] xl:w-[200px] top-[85px] right-0"
       />
       <img
         src={Ellipse2}
         alt="ellipse"
-        className="absolute w-[60px] xl:w-[150px] bottom-[57px] left-0"
+        className="absolute w-[150px] xl:w-[200px] bottom-[57px] left-0"
       />
     </div>
   );

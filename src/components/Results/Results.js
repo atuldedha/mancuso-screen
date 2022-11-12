@@ -2,6 +2,8 @@ import React from "react";
 import Faq from "./Faq/Faq";
 import ResultsCard from "./ResultsCard/ResultsCard";
 import UploadImage from "./UploadImage/UploadImage";
+import Ellipse1 from "../../images/newResultCircle1.png";
+import Ellipse2 from "../../images/newResultCircle2.png";
 
 const Results = () => {
   const heading =
@@ -21,7 +23,7 @@ const Results = () => {
     "Take different angles, some looking directly into the camera, some looking away",
   ];
   return (
-    <div className="py-[50px] md:py-[90px] xl:py-[135px] bg-white flex flex-col items-center justify-center">
+    <div className="relative py-[50px] md:py-[90px] xl:py-[135px] bg-white flex flex-col items-center justify-center">
       <span className="inline-block font-plusJakarta font-semibold text-[20px] md:text-[44px] xl:text-[64px] leading:[40px] md:leading-[60px] xl:leading-[82px] xl:-tracking-[1px] text-[#2C2A3B] mb-[29px]">
         How to get
         <span className="font-playFair italic font-medium">best</span> results
@@ -43,6 +45,17 @@ const Results = () => {
       <div>
         <Faq />
       </div>
+
+      <img
+        src={Ellipse1}
+        alt="ellipse"
+        className="absolute w-[40px] md:w-[100px] xl:w-[150px] top-[623pxpx] left-0"
+      />
+      <img
+        src={Ellipse2}
+        alt="ellipse"
+        className="absolute w-[40px] md:w-[100px] xl:w-[150px] bottom-[702px] right-0"
+      />
     </div>
   );
 };
