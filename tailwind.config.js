@@ -7,6 +7,7 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
         playFair: ["Playfair Display", "serif"],
         plusJakarta: ["Plus Jakarta Sans", "sans-serif"],
+        manrope: ["Manrope", "sans-serif"],
       },
       backgroundImage: {
         linear: "linear-gradient(90deg, #6366F1 0%, #8B5CF6 50%, #D946EF 100%)",
@@ -15,6 +16,8 @@ module.exports = {
       },
       boxShadow: {
         btn: "0px 21px 44px rgba(72, 7, 156, 0.35)",
+        faqCard:
+          "0px 4.4px 12px -1px rgba(19, 16, 34, 0.06), 0px 2px 6.4px -1px rgba(19, 16, 34, 0.03)",
       },
     },
   },

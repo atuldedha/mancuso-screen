@@ -1,4 +1,5 @@
 import React from "react";
+import Faq from "./Faq/Faq";
 import ResultsCard from "./ResultsCard/ResultsCard";
 import UploadImage from "./UploadImage/UploadImage";
 
@@ -20,23 +21,27 @@ const Results = () => {
     "Take different angles, some looking directly into the camera, some looking away",
   ];
   return (
-    <div className="py-[135px] bg-white flex flex-col items-center justify-center">
-      <span className="flex font-plusJakarta font-semibold text-[64px] leading-[82px] -tracking-[1px] text-[#2C2A3B] mb-[29px]">
+    <div className="py-[50px] md:py-[90px] xl:py-[135px] bg-white flex flex-col items-center justify-center">
+      <span className="inline-block font-plusJakarta font-semibold text-[20px] md:text-[44px] xl:text-[64px] leading:[40px] md:leading-[60px] xl:leading-[82px] xl:-tracking-[1px] text-[#2C2A3B] mb-[29px]">
         How to get
         <span className="font-playFair italic font-medium">best</span> results
       </span>
-      <span className="flex font-normal text-[18px] leading-[29px] font-plusJakarta opacity-[0.7] text-[#12141D] mb-[10px]">
+      <span className="flex font-normal px-[48px] text-[10px] md:text-[14px] xl:text-[18px] leading-[18px] md:leading-[24px] xl:leading-[29px] font-plusJakarta opacity-[0.7] text-[#12141D] mb-[10px]">
         Following these guidelines will make sure that you'll get the best
         results possible.
       </span>
 
-      <div className="flex items-center px-[221px] space-x-[59px]">
+      <div className="flex flex-col xl:flex-row xl:items-center px-[48px] md:px-[100px] xl:px-[221px] space-y-[30px] space-x-0 xl:space-x-[59px] xl:space-y-0">
         <ResultsCard heading={heading} optionTexts={optionsText1} />
         <ResultsCard heading={heading} optionTexts={optionsText2} />
       </div>
 
-      <div className="px-[221px] w-full">
+      <div className="px-[48px] md:px-[100px] xl:px-[221px] w-full">
         <UploadImage />
+      </div>
+
+      <div>
+        <Faq />
       </div>
     </div>
   );
